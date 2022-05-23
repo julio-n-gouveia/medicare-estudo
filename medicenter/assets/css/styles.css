@@ -1,0 +1,153 @@
+@charset "UFT-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #fff;
+}
+
+.conteiner{
+    width: 990px;
+    display: flex;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu,
+.menu li{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li .menulink {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+
+}
+
+.menu li .menulink:hover{
+    background-color: #8f1414;
+    color: #fff;
+}
+
+.logo img{
+    width: 90px;
+}
+
+#banner{
+    background-image:url('../images/65499160-happy-woman-feeling-free-with-open-arms-in-sunshine-at-beach-sunset-freedom-and-carefree-enjoyment-g.webp');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.column{
+    flex-direction: column;
+}
+
+.b_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.b_headline h1{
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 0px 2px 0px #555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.b_headline h2{
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 0px 1px 0px #555;
+    margin: 0;
+    margin-top: 30px;
+    padding: 0;
+    max-width: 350px;
+}
+
+.b_options{
+    height: 210px;
+    display: flex;
+    
+}
+.b1,
+.b2,
+.b3{
+    flex: 1;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+.b1{
+    background-color: #f71b1b;
+}
+
+.b2{
+    background-color: #9a1313;
+}
+
+.b3{
+    background-color: #5c0d0d;
+}
+
+.b_options_h1{
+font-size: 21px;
+}
+
+.b_options_p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.b_options a{
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none ;
+}
+
+
+.b3_list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b3_list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.b3_list ul li{
+    border-bottom: 1px solid #727272;
+}
+
