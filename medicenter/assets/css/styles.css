@@ -1,12 +1,12 @@
 @charset "UFT-8";
 
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
+header {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -14,20 +14,30 @@ header{
     background-color: #fff;
 }
 
-.conteiner{
+.conteiner {
     width: 990px;
     display: flex;
 
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+article a{
+    text-decoration: none;
+}
+
 .menu,
-.menu li{
+.menu li {
     display: flex;
     list-style: none;
     margin: 0;
@@ -43,17 +53,17 @@ nav{
 
 }
 
-.menu li .menulink:hover{
+.menu li .menulink:hover {
     background-color: #8f1414;
     color: #fff;
 }
 
-.logo img{
+.logo img {
     width: 90px;
 }
 
-#banner{
-    background-image:url('../images/65499160-happy-woman-feeling-free-with-open-arms-in-sunshine-at-beach-sunset-freedom-and-carefree-enjoyment-g.webp');
+#banner {
+    background-image: url('../images/65499160-happy-woman-feeling-free-with-open-arms-in-sunshine-at-beach-sunset-freedom-and-carefree-enjoyment-g.webp');
     background-position: center;
     background-size: cover;
     height: 670px;
@@ -62,7 +72,7 @@ nav{
 
 }
 
-.column{
+.column {
     flex-direction: column;
 }
 
@@ -72,7 +82,8 @@ nav{
     flex-direction: column;
     justify-content: center;
 }
-.b_headline h1{
+
+.b_headline h1 {
     color: #fff;
     font-size: 70px;
     text-shadow: 0px 2px 0px #555;
@@ -81,7 +92,7 @@ nav{
     max-width: 350px;
 }
 
-.b_headline h2{
+.b_headline h2 {
     font-size: 22px;
     color: #fff;
     text-shadow: 0px 1px 0px #555;
@@ -91,63 +102,162 @@ nav{
     max-width: 350px;
 }
 
-.b_options{
+.b_options {
     height: 210px;
     display: flex;
-    
+
 }
+
 .b1,
 .b2,
-.b3{
+.b3 {
     flex: 1;
     color: #fff;
     padding: 20px;
     margin: 0;
 }
-.b1{
+
+.b1 {
     background-color: #f71b1b;
 }
 
-.b2{
+.b2 {
     background-color: #9a1313;
 }
 
-.b3{
+.b3 {
     background-color: #5c0d0d;
 }
 
-.b_options_h1{
-font-size: 21px;
+.b_options_h1 {
+    font-size: 21px;
 }
 
-.b_options_p{
+.b_options_p {
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.b_options a{
+.b_options a {
     display: inline-block;
     border: 1px solid #fff;
     padding: 5px;
     color: #fff;
     font-size: 12px;
-    text-decoration: none ;
+    text-decoration: none;
 }
 
 
-.b3_list{
+.b3_list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100px;
 }
 
-.b3_list ul{
+.b3_list ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.b3_list ul li{
-    border-bottom: 1px solid #727272;
+.b3_list ul li {
+    list-style: none;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
 }
 
+#geral {
+    display: flex;
+    justify-content: center;
+
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.w_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.w_txt {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.w_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #f71b1b;
+}
+
+.departament_body{
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+
+}
+
+.d_content{
+    width: 120px;
+    height: 120px;
+    background-color: #f71b1b;
+    margin: 10px;
+}
+
+article .n_date{
+    display: flex;
+}
+article .n_postdate{
+    color: #fff;
+    font-size: 12px;
+    background-color: #8f1414;
+    padding:10px;
+    margin-right: 2px;
+}
+
+article .n_comments {
+    background-color: #f71b1b;
+    font-size: 12px;
+    padding: 10px;
+    color: #fff;
+}
+
+article .n_tumb{
+    margin-top: 30px;
+}
+
+article .n_tumb img{
+    width: 100%;
+    height: auto;
+}
+
+article .n_title h1{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color:#000;
+    font-size: 23px;
+    
+}
+
+article .n_resume{
+    color: #555;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.n_body{
+    display: flex;
+    flex-wrap: wrap;
+}
