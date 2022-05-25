@@ -268,12 +268,12 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #171717;
-
 }
 
 .f_main {
     display: flex;
     flex-direction: column;
+    flex:1;
 }
 
 .f_color {
@@ -311,15 +311,13 @@ footer {
 
 .f_black {
     display: flex;
-
-
+    justify-content: space-around;
 }
 
 .f_content1,
 .f_content2,
 .f_content3 {
-    display: flex;
-    justify-content: flex-start;
+    display: flex; 
     flex: 1;
     flex-direction: column;
 }
@@ -381,4 +379,59 @@ footer {
     font-size: 12px;
     margin-top: 30px;
 
+}
+
+
+@media (max-width: 600px){
+    .b_headline{
+        padding: 20px;
+    }
+    
+    .b_headline h1{
+        font-size: 55px;
+    }
+    .b_headline h2{
+        font-size: 17px;
+    }
+
+.b_options{
+    height: auto;
+    flex-direction: column;
+}
+
+.conteiner{
+    flex-direction: column;
+    
+}
+
+#geral section,
+#geral aside{
+    padding: 20px;
+}
+
+.f_main{
+    flex-direction: column;
+}
+
+.f_color{
+    flex-direction: column;
+}
+
+
+
+.f_black{
+   display: flex;
+    padding-top: 250px;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.f_copy{
+    padding-left: 20px;
+}
+
+header .conteiner {
+    flex-direction: row;
 }
