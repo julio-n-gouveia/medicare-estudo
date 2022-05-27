@@ -1,2 +1,2 @@
 # medicare-estudo
- Exercicio de criaçãode site. Sem fins comeciais.
+ Exercicio de criação de site. Sem fins comeciais.
